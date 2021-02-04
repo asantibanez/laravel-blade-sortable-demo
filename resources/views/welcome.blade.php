@@ -40,6 +40,7 @@
                 component="custom-li"
                 avatar="https://randomuser.me/api/portraits/men/32.jpg"
                 name="Andres Santibanez"
+                class="cursor-move"
                 email="andres@family.com"
                 data-sort-key="andres"
             />
@@ -47,6 +48,7 @@
                 component="custom-li"
                 avatar="https://randomuser.me/api/portraits/women/63.jpg"
                 name="Pamela Ochoa"
+                class="cursor-move"
                 email="pamela@family.com"
                 data-sort-key="pamela"
             />
@@ -54,6 +56,7 @@
                 component="custom-li"
                 avatar="https://randomuser.me/api/portraits/women/44.jpg"
                 name="Sara Santibanez"
+                class="cursor-move"
                 email="sara@family.com"
                 data-sort-key="sara"
             />
@@ -61,6 +64,7 @@
                 component="custom-li"
                 avatar="https://randomuser.me/api/portraits/men/34.jpg"
                 name="Bruno Santibanez"
+                class="cursor-move"
                 email="bruno@family.com"
                 data-sort-key="bruno"
             />
