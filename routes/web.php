@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::view('/', 'welcome');
+Route::view('/examples/basic', 'basic');
+Route::view('/examples/custom-component', 'custom-component');
+Route::view('/examples/as-form-input', 'as-form-input');
