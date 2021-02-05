@@ -1,4 +1,4 @@
-<li {{ $attributes->merge(['class' => 'py-4 flex']) }}>
+<li {{ $attributes->merge(['class' => 'py-4 flex bg-white']) }}>
     <img class="h-10 w-10 rounded-full"
          src="{{ $avatar }}"
          alt=""

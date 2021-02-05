@@ -8,21 +8,25 @@
     <x-laravel-blade-sortable::sortable
         animation="1000"
         ghost-class="opacity-25"
+        drag-handle="drag-handle"
     >
         <x-laravel-blade-sortable::sortable-item
-            class="rounded-lg bg-white p-4 shadow border"
+            class="rounded-lg bg-white p-4 shadow border flex items-center justify-between"
         >
-            1
+            <span class="font-bold text-sm">Item 1</span>
+            <span class="cursor-move drag-handle text-indigo-500 text-xs">Drag Here</span>
         </x-laravel-blade-sortable::sortable-item>
         <x-laravel-blade-sortable::sortable-item
-            class="rounded-lg bg-white p-4 shadow border"
+            class="rounded-lg bg-white p-4 shadow border flex items-center justify-between"
         >
-            2
+            <span class="font-bold text-sm">Item 2</span>
+            <span class="cursor-move drag-handle text-indigo-500 text-xs">Drag Here</span>
         </x-laravel-blade-sortable::sortable-item>
         <x-laravel-blade-sortable::sortable-item
-            class="rounded-lg bg-white p-4 shadow border"
+            class="rounded-lg bg-white p-4 shadow border flex items-center justify-between"
         >
-            3
+            <span class="font-bold text-sm">Item 3</span>
+            <span class="cursor-move drag-handle text-indigo-500 text-xs">Drag Here</span>
         </x-laravel-blade-sortable::sortable-item>
     </x-laravel-blade-sortable::sortable>
 @endsection
