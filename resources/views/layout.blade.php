@@ -7,11 +7,15 @@
     <title>Laravel Blade Sortable Demo</title>
 
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <livewire:styles/>
 </head>
 <body>
 <div class="mx-auto container py-8 space-y-8">
     @yield('content')
 </div>
+
+<livewire:scripts/>
 
 <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
 

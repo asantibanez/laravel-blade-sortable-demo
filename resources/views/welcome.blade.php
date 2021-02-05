@@ -15,18 +15,26 @@
         Laravel Blade Sortable Demos
     </h1>
 
-    <div class="space-x-4">
+    <div class="space-x-2">
         <a href="/examples/basic"
-           class="bg-indigo-500 border rounded p-2 text-white">
+           class="bg-indigo-500 border rounded-lg p-2 text-white text-sm"
+        >
             Basic
         </a>
         <a href="/examples/custom-component"
-           class="bg-indigo-500 border rounded p-2 text-white">
+           class="bg-indigo-500 border rounded-lg p-2 text-white text-sm"
+        >
             Custom Component
         </a>
         <a href="/examples/as-form-input"
-           class="bg-indigo-500 border rounded p-2 text-white">
+           class="bg-indigo-500 border rounded-lg p-2 text-white text-sm"
+        >
             As Form Input
+        </a>
+        <a href="/examples/livewire"
+           class="bg-indigo-500 border rounded-lg p-2 text-white text-sm"
+        >
+            Livewire
         </a>
     </div>
 

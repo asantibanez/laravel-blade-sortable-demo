@@ -1,11 +1,15 @@
 @extends('layout')
 
 @section('content')
+    <p class="text-2xl text-indigo-500 font-medium">
+        Custom Component Example
+    </p>
+
     <x-laravel-blade-sortable::sortable
-        component="custom-ul"
+        component="custom-ul" {{-- just set your component name here --}}
     >
         <x-laravel-blade-sortable::sortable-item
-            component="custom-li"
+            component="custom-li" {{-- here too if needed --}}
             avatar="https://randomuser.me/api/portraits/men/32.jpg"
             name="Andres Santibanez"
             class="cursor-move"

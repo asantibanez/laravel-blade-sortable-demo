@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/', 'welcome');
-Route::view('/examples/basic', 'basic');
-Route::view('/examples/custom-component', 'custom-component');
-Route::view('/examples/as-form-input', 'as-form-input');
+Route::view('/examples/basic', 'examples.basic');
+Route::view('/examples/custom-component', 'examples.custom-component');
+Route::view('/examples/as-form-input', 'examples.as-form-input');
+Route::view('/examples/livewire', 'examples.livewire');

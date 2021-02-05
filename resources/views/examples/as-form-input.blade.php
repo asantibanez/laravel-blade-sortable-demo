@@ -1,6 +1,10 @@
 @extends('layout')
 
 @section('content')
+    <p class="text-2xl text-indigo-500 font-medium">
+        As Form Input Example
+    </p>
+
     @if(request('sort_order'))
         <p>
             The submitted order is: @json(request('sort_order'))
