@@ -24,7 +24,7 @@
             </tr>
             </thead>
             <x-laravel-blade-sortable::sortable
-                as="tbody"
+                component="custom-tbody"
                 class="bg-white divide-y divide-gray-200"
                 wire:onSortOrderChange="handleSortOrderChange"
             >
