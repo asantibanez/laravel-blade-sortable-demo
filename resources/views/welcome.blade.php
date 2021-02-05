@@ -41,6 +41,11 @@
         >
             Customization
         </a>
+        <a href="/examples/drag-drop"
+           class="bg-indigo-500 border rounded-lg p-2 text-white text-sm"
+        >
+            Drag and Drop
+        </a>
     </div>
 
 </div>
