@@ -36,6 +36,11 @@
         >
             Livewire
         </a>
+        <a href="/examples/customization"
+           class="bg-indigo-500 border rounded-lg p-2 text-white text-sm"
+        >
+            Customization
+        </a>
     </div>
 
 </div>

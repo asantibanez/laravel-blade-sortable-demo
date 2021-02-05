@@ -18,3 +18,4 @@ Route::view('/examples/basic', 'examples.basic');
 Route::view('/examples/custom-component', 'examples.custom-component');
 Route::view('/examples/as-form-input', 'examples.as-form-input');
 Route::view('/examples/livewire', 'examples.livewire');
+Route::view('/examples/customization', 'examples.customization');
