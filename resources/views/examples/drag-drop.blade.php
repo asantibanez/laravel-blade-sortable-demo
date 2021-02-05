@@ -12,6 +12,7 @@
         >
             @foreach(['Andres', 'Eric', 'Paul'] as $person)
                 <x-laravel-blade-sortable::sortable-item
+                    sort-key="{{ $person }}"
                     class="rounded-lg bg-white p-4 shadow border flex items-center justify-between"
                 >
                     <span class="font-bold text-sm">{{ $person }}</span>
@@ -25,6 +26,7 @@
         >
             @foreach(['Jason', 'Yaz', 'Jacob'] as $person)
                 <x-laravel-blade-sortable::sortable-item
+                    sort-key="{{ $person }}"
                     class="rounded-lg bg-white p-4 shadow border flex items-center justify-between"
                 >
                     <span class="font-bold text-sm">{{ $person }}</span>

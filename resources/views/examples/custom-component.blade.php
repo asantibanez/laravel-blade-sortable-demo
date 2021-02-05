@@ -14,7 +14,7 @@
             name="Andres Santibanez"
             class="cursor-move"
             email="andres@family.com"
-            data-sort-key="andres"
+            sort-key="andres"
         />
         <x-laravel-blade-sortable::sortable-item
             component="custom-li"
@@ -22,7 +22,7 @@
             name="Pamela Ochoa"
             class="cursor-move"
             email="pamela@family.com"
-            data-sort-key="pamela"
+            sort-key="pamela"
         />
         <x-laravel-blade-sortable::sortable-item
             component="custom-li"
@@ -30,7 +30,7 @@
             name="Sara Santibanez"
             class="cursor-move"
             email="sara@family.com"
-            data-sort-key="sara"
+            sort-key="sara"
         />
         <x-laravel-blade-sortable::sortable-item
             component="custom-li"
@@ -38,7 +38,7 @@
             name="Bruno Santibanez"
             class="cursor-move"
             email="bruno@family.com"
-            data-sort-key="bruno"
+            sort-key="bruno"
         />
     </x-laravel-blade-sortable::sortable>
 @endsection

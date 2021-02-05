@@ -17,10 +17,10 @@
             class="space-y-4"
             name="sort_order" {{-- adding "name" creates a hidden input --}}
         >
-            @foreach(['Batman', 'Robin', 'Batwoman', 'Red Hood', 'Nightwing'] as $batHero)
+            @foreach(request('sort_order', ['Batman', 'Robin', 'Batwoman', 'Red Hood', 'Nightwing']) as $batHero)
                 <x-laravel-blade-sortable::sortable-item
                     as="div"
-                    data-sort-key="{{ $batHero }}"
+                    sort-key="{{ $batHero }}"
                     class="bg-white shadow-lg border rounded py-2 px-4"
                 >
                     {{ $batHero }}

@@ -10,25 +10,25 @@
     >
         <x-laravel-blade-sortable::sortable-item
             as="div"
-            data-sort-key="jason" {{-- this is important. set a key for each entry --}}
+            sort-key="jason" {{-- this is important. set a key for each entry --}}
         >
             Jason
         </x-laravel-blade-sortable::sortable-item>
         <x-laravel-blade-sortable::sortable-item
             as="div"
-            data-sort-key="andres"
+            sort-key="andres"
         >
             Andres
         </x-laravel-blade-sortable::sortable-item>
         <x-laravel-blade-sortable::sortable-item
             as="div"
-            data-sort-key="matt"
+            sort-key="matt"
         >
             Matt
         </x-laravel-blade-sortable::sortable-item>
         <x-laravel-blade-sortable::sortable-item
             as="div"
-            data-sort-key="james"
+            sort-key="james"
         >
             James
         </x-laravel-blade-sortable::sortable-item>

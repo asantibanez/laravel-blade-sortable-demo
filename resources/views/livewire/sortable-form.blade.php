@@ -32,7 +32,7 @@
                     <x-laravel-blade-sortable::sortable-item
                         as="tr"
                         wire:key="{{ $person['id'] }}"
-                        data-sort-key="{{ $person['id'] }}"
+                        sort-key="{{ $person['id'] }}"
                     >
                         <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                             <input
