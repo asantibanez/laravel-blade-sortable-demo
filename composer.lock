@@ -4,19 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6e7f5f323ecaffab19f12d70281e94e4",
+    "content-hash": "3d1aa1d6c48705fe10f0b0b0a5f63ea6",
     "packages": [
         {
             "name": "asantibanez/laravel-blade-sortable",
-            "version": "dev-master",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/asantibanez/laravel-blade-sortable.git",
+                "reference": "0bdd90f31d3f0e8fc7c0a4ebd48f1d01c63f0eea"
+            },
             "dist": {
-                "type": "path",
-                "url": "../../packages/laravel-blade-sortable",
-                "reference": "a1bd0b38342b81cf6130770d9286962aee955065"
+                "type": "zip",
+                "url": "https://api.github.com/repos/asantibanez/laravel-blade-sortable/zipball/0bdd90f31d3f0e8fc7c0a4ebd48f1d01c63f0eea",
+                "reference": "0bdd90f31d3f0e8fc7c0a4ebd48f1d01c63f0eea",
+                "shasum": ""
             },
             "require": {
                 "illuminate/support": "^7.0|^8.0",
-                "php": "^7.0|^8.0"
+                "php": "^7.2|^7.3|^7.4|^8.0"
             },
             "require-dev": {
                 "orchestra/testbench": "^5.0|^6.0",
@@ -38,19 +44,7 @@
                     "Asantibanez\\LaravelBladeSortable\\": "src"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Asantibanez\\LaravelBladeSortable\\Tests\\": "tests"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "vendor/bin/phpunit"
-                ],
-                "test-coverage": [
-                    "vendor/bin/phpunit --coverage-html coverage"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -61,15 +55,17 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Laravel Blade Sortable",
+            "description": "Custom Blade components to add sortable/drag-and-drop HTML elements in your apps",
             "homepage": "https://github.com/asantibanez/laravel-blade-sortable",
             "keywords": [
                 "asantibanez",
                 "laravel-blade-sortable"
             ],
-            "transport-options": {
-                "relative": true
-            }
+            "support": {
+                "issues": "https://github.com/asantibanez/laravel-blade-sortable/issues",
+                "source": "https://github.com/asantibanez/laravel-blade-sortable/tree/v1.0.3"
+            },
+            "time": "2021-02-06T01:48:56+00:00"
         },
         {
             "name": "asm89/stack-cors",
@@ -1447,16 +1443,16 @@
         },
         {
             "name": "livewire/livewire",
-            "version": "v2.3.15",
+            "version": "v2.3.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/livewire/livewire.git",
-                "reference": "1d76638b54a0f952f4f0334a33dfcfefc456ea4a"
+                "reference": "8f027e9bc5ad1f08f0c900244e6fdb9966f7a287"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/livewire/livewire/zipball/1d76638b54a0f952f4f0334a33dfcfefc456ea4a",
-                "reference": "1d76638b54a0f952f4f0334a33dfcfefc456ea4a",
+                "url": "https://api.github.com/repos/livewire/livewire/zipball/8f027e9bc5ad1f08f0c900244e6fdb9966f7a287",
+                "reference": "8f027e9bc5ad1f08f0c900244e6fdb9966f7a287",
                 "shasum": ""
             },
             "require": {
@@ -1507,7 +1503,7 @@
             "description": "A front-end framework for Laravel.",
             "support": {
                 "issues": "https://github.com/livewire/livewire/issues",
-                "source": "https://github.com/livewire/livewire/tree/v2.3.15"
+                "source": "https://github.com/livewire/livewire/tree/v2.3.16"
             },
             "funding": [
                 {
@@ -1515,7 +1511,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-02-04T16:39:14+00:00"
+            "time": "2021-02-05T15:05:19+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -5138,16 +5134,16 @@
         },
         {
             "name": "facade/ignition",
-            "version": "2.5.10",
+            "version": "2.5.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facade/ignition.git",
-                "reference": "98154e8b991fb616304c213cd405299ffedc26f5"
+                "reference": "e91d67353054bf827c64687fcac5ea44e4dcec54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facade/ignition/zipball/98154e8b991fb616304c213cd405299ffedc26f5",
-                "reference": "98154e8b991fb616304c213cd405299ffedc26f5",
+                "url": "https://api.github.com/repos/facade/ignition/zipball/e91d67353054bf827c64687fcac5ea44e4dcec54",
+                "reference": "e91d67353054bf827c64687fcac5ea44e4dcec54",
                 "shasum": ""
             },
             "require": {
@@ -5211,7 +5207,7 @@
                 "issues": "https://github.com/facade/ignition/issues",
                 "source": "https://github.com/facade/ignition"
             },
-            "time": "2021-02-02T10:15:48+00:00"
+            "time": "2021-02-05T12:52:11+00:00"
         },
         {
             "name": "facade/ignition-contracts",
@@ -7491,9 +7487,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "asantibanez/laravel-blade-sortable": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
