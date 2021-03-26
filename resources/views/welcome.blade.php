@@ -46,6 +46,12 @@
         >
             Drag and Drop
         </a>
+
+        <a href="/examples/drag-drop-nested"
+           class="bg-indigo-500 border rounded-lg p-2 text-white text-sm"
+        >
+            Drag and Drop Nested
+        </a>
     </div>
 
 </div>

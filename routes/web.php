@@ -20,3 +20,4 @@ Route::view('/examples/as-form-input', 'examples.as-form-input');
 Route::view('/examples/livewire', 'examples.livewire');
 Route::view('/examples/customization', 'examples.customization');
 Route::view('/examples/drag-drop', 'examples.drag-drop');
+Route::view('/examples/drag-drop-nested', 'examples.drag-drop-nested');
