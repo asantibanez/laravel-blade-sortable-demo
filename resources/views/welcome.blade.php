@@ -52,6 +52,12 @@
         >
             Drag and Drop Nested
         </a>
+
+        <a href="/examples/livewire/drag-drop-multiple-targets"
+           class="bg-indigo-500 border rounded-lg p-2 text-white text-sm"
+        >
+            Livewire Drag and Drop Multiple Targets
+        </a>
     </div>
 
 </div>
