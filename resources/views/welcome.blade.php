@@ -15,7 +15,7 @@
         Laravel Blade Sortable Demos
     </h1>
 
-    <div class="space-x-2">
+    <div class="space-x-2 flex flex-nowrap">
         <a href="/examples/basic"
            class="bg-indigo-500 border rounded-lg p-2 text-white text-sm"
         >
@@ -57,6 +57,12 @@
            class="bg-indigo-500 border rounded-lg p-2 text-white text-sm"
         >
             Livewire Drag and Drop Multiple Targets
+        </a>
+
+        <a href="/examples/disable-drop-sort"
+           class="bg-indigo-500 border rounded-lg p-2 text-white text-sm"
+        >
+            Disable Drop and Sort
         </a>
     </div>
 

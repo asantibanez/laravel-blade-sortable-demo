@@ -22,3 +22,4 @@ Route::view('/examples/livewire/drag-drop-multiple-targets', 'examples.livewire-
 Route::view('/examples/customization', 'examples.customization');
 Route::view('/examples/drag-drop', 'examples.drag-drop');
 Route::view('/examples/drag-drop-nested', 'examples.drag-drop-nested');
+Route::view('/examples/disable-drop-sort', 'examples.disable-drop-sort');
